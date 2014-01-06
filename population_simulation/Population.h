@@ -22,7 +22,7 @@ public:
 	//creates a person
 	//sets age, fertility
 	//have child from/to and
-	//adds that person to the population the deterministic way
+	//adds that person to the population
 	void add_people(int n, int max_age, float fertility, int children_from, int children_to);
 private:
 	//the base container
