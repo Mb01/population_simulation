@@ -13,7 +13,7 @@
 #include "stdlib.h"
 // helper to get a random integer min inclusive max exclusive
 float rand_int(int min, int max){
-	float r =  rand() % (max - min) + min; 
+	float r =  rand() % (max - min) + min;
 		return r;
 }
 
@@ -25,7 +25,7 @@ Population::~Population() {
 
 }
 
-// run one year of the simulation
+//run one year of the simulation
 void Population::do_year(){
 	//run age year on every person in population
 	for(std::vector<Person*>::iterator it = people.begin(); it < people.end(); it++){

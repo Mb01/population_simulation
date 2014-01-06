@@ -21,8 +21,8 @@ int main(int arv, char** argc){
 	srand(t);
 
 	Simulation sim;
-    sim.set_initial_people(100);
-    sim.set_years_to_simulate(100);
+    sim.set_initial_people(1000);
+    sim.set_years_to_simulate(1000);
     sim.do_simulation();
     std::cout << "took " << time(NULL) - t << " seconds";
 	return 0;

@@ -27,12 +27,10 @@ Person::Person(){
 	alive = true;
 	have_child_from = 0;
 	have_child_to = 0;
-	//std::cout << "Person born at " << this << '\n';
 }
 
 //death
 Person::~Person(){
-	//std::cout << "Person dead at " << this << '\n';
 	//goodbye world
 }
 
