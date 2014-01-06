@@ -5,14 +5,7 @@
  *      Author: mark
  */
 
-//debug headers
-#include "Person.h"
-
-
-
-
 #include <iostream>
-#include <vector>
 
 #include "stdlib.h"
 #include "time.h"
@@ -26,10 +19,10 @@ int main(int arv, char** argc){
 	//init random number generator
 	int t = time(NULL);
 	srand(t);
-	
+
     Simulation sim;
     sim.set_initial_people(100);
-    sim.set_years_to_simulate(500);
+    sim.set_years_to_simulate(100);
     sim.do_simulation();
     std::cout << "took " << time(NULL) - t << " seconds";
 	return 0;
