@@ -14,7 +14,7 @@
 const int MAX_AGE = 80;
 const int HAVE_FROM = 20;
 const int HAVE_TO = 40;
-const float FERTILITY = 0.1;
+const float FERTILITY = 0.5;
 
 Simulation::Simulation() {
 	population = new Population();

@@ -20,7 +20,7 @@ int main(int arv, char** argc){
 	int t = time(NULL);
 	srand(t);
 
-    Simulation sim;
+	Simulation sim;
     sim.set_initial_people(100);
     sim.set_years_to_simulate(100);
     sim.do_simulation();
