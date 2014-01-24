@@ -19,14 +19,14 @@ public:
 	//does one year of simulation
 	void do_year();
 	//initialization helper for Simulation
-	//creates a person
+	//adds n people to the population
 	//sets age, fertility
 	//have child from/to and
-	//adds that person to the population
 	void add_people(int n, int max_age, float fertility, int children_from, int children_to);
 private:
 	//the base container
 	std::vector<Person*> people;
+	//container to hold people who survive 
 	std::vector<Person*> temp;
 	//helper function for setting up used by add_people
 	void add_person(int, float, int, int);
