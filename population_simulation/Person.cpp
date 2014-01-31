@@ -16,6 +16,7 @@ float rand_zero_one(){
 	return r;
 }
 
+//hello world
 Person::Person(){
 	age = 0;
 	fertility = 0.0;
