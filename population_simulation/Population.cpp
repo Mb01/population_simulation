@@ -5,12 +5,10 @@
  *      Author: mark
  */
 
-//debug libraries
 #include <iostream>
-
-
 #include "Population.h"
 #include "stdlib.h"
+
 // helper to get a random integer min inclusive max exclusive
 float rand_int(int min, int max){
 	float r =  rand() % (max - min) + min;
