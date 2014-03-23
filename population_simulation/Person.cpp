@@ -7,22 +7,12 @@
 
 #include "Person.h"
 #include "stdlib.h"
-<<<<<<< HEAD
 #include "statistics_helpers.h"
 #include <iostream>
 
-=======
 #include <iostream>
 
-//should call srand in main
-//get a random number between 0 and 1
-float rand_zero_one(){
-	float r = static_cast <float> (rand()) / static_cast <float> (RAND_MAX);
-	return r;
-}
-
 //hello world
->>>>>>> 17c01bfe8d61d5e5a5222196f5b90baff221505a
 Person::Person(){
 	age = 0;
 	fertility = 0.0;
