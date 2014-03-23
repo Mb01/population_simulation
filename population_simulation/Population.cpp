@@ -5,13 +5,20 @@
  *      Author: mark
  */
 
-//debug libraries
 #include <iostream>
-
-
 #include "Population.h"
+<<<<<<< HEAD
 #include "statistics_helpers.h"
 
+=======
+#include "stdlib.h"
+
+// helper to get a random integer min inclusive max exclusive
+float rand_int(int min, int max){
+	float r =  rand() % (max - min) + min;
+		return r;
+}
+>>>>>>> 17c01bfe8d61d5e5a5222196f5b90baff221505a
 
 Population::Population() {
 	//nothing to initialize yet
