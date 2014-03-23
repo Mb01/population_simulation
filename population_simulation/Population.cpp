@@ -10,12 +10,8 @@
 
 
 #include "Population.h"
-#include "stdlib.h"
-// helper to get a random integer min inclusive max exclusive
-float rand_int(int min, int max){
-	float r =  rand() % (max - min) + min;
-		return r;
-}
+#include "statistics_helpers.h"
+
 
 Population::Population() {
 	//nothing to initialize yet

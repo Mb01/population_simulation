@@ -7,17 +7,8 @@
 
 #include "Person.h"
 #include "stdlib.h"
-
+#include "statistics_helpers.h"
 #include <iostream>
-
-//*helper functions*
-//should call srand in main
-//get a random number between 0 and 1
-//? should be static?
-float rand_zero_one(){
-	float r = static_cast <float> (rand()) / static_cast <float> (RAND_MAX);
-	return r;
-}
 
 Person::Person(){
 	age = 0;
